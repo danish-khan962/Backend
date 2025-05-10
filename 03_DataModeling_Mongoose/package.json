@@ -1,0 +1,22 @@
+{
+  "name": "03_datamodeling_mongoose",
+  "version": "1.0.0",
+  "description": "Shows hows data models are created using mongoose",
+  "keywords": [
+    "node",
+    "moongoose",
+    "npm",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Danish khan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  }
+}
