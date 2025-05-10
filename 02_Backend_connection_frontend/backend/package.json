@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend server to be connected with frontend ...",
+  "keywords": [
+    "node",
+    "backend",
+    "npm"
+  ],
+  "license": "ISC",
+  "author": "Danish Khan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
