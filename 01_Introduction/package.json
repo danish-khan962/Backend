@@ -1,0 +1,24 @@
+{
+  "name": "01_introduction",
+  "version": "1.0.0",
+  "description": "Basic setup of Backend project and deployment of backend project is done ....",
+  "keywords": [
+    "node",
+    "express",
+    "backend",
+    "web",
+    "react",
+    "npm"
+  ],
+  "license": "ISC",
+  "author": "Danish Khan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
