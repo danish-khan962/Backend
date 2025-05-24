@@ -10,7 +10,7 @@ const Read = () => {
 
   const getData = async () => {
     try {
-      const response = await axios.get("https://crud-pqyi.onrender.com/");
+      const response = await axios.get("https://crud-pqyi.onrender.com");
 
       const result = response.data;
 
