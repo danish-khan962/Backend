@@ -76,7 +76,7 @@ const Update = () => {
     <form className='w-screen flex flex-col gap-8 justify-center items-center mt-20 p-4' onSubmit={handleUpdate}>
       <h1 className='text-[30px] font-bold'>Edit your data</h1>
 
-      <div className='max-w-[800px] w-[100%] border-[1px] border-slate-400 p-10 bg-[#000] rounded-[20px] xs:p-5'>
+      <div className='max-w-[800px] w-[100%] border-none shadow-[0_1px_16px_#FF2400]  p-10 bg-[#000] rounded-[20px] xs:p-5'>
 
         <div className='flex flex-col gap-y-5 bg-[#000]'>
           <div className='flex flex-row justify-between items-center bg-[#000]'>
