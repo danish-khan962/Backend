@@ -2,13 +2,16 @@ import express, { request, response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import {userRouter} from './routes/user.routes.js'
+import { userRouter } from './routes/user.routes.js'
 
 const app = express();
 
 dotenv.config();
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://crud-backend-jet-ten.vercel.app/', // replace with your Vercel domain
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+}));
 
 //body-parsing
 app.use(express.json());
