@@ -28,7 +28,7 @@ const Create = () => {
     const addUser = { name, email, age: Number(age) };
 
     try {
-        const response = await axios.post("http://localhost:4000", addUser, {
+        const response = await axios.post("https://crud-pqyi.onrender.com", addUser, {
             headers: {
                 "Content-Type": "application/json"
             }

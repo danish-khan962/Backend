@@ -10,7 +10,7 @@ const Read = () => {
 
   const getData = async () => {
     try {
-      const response = await axios.get("http://localhost:4000");
+      const response = await axios.get("https://crud-pqyi.onrender.com/");
 
       const result = response.data;
 
@@ -31,7 +31,7 @@ const Read = () => {
   //deleting user
   const handleDelete = async(id) => {
     try {
-      const response = await axios.delete(`http://localhost:4000/${id}`);
+      const response = await axios.delete(`https://crud-pqyi.onrender.com/${id}`);
       const result = response.data;
 
      setData(prevData => prevData.filter(item => item._id !== id));
