@@ -9,8 +9,8 @@ const app = express();
 dotenv.config();
 
 app.use(cors({
-    origin: 'https://crud-backend-jet-ten.vercel.app/', // replace with your Vercel domain
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    origin: 'https://crud-backend-jet-ten.vercel.app', // replace with your Vercel domain
+    methods: ['GET', 'POST', 'PATCH', 'DELETE'],
 }));
 
 //body-parsing
