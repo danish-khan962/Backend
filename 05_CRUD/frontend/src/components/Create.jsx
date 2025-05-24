@@ -28,7 +28,7 @@ const Create = () => {
     const addUser = { name, email, age: Number(age) };
 
     try {
-        const response = await axios.post("https://crud-backend-jet-ten.vercel.app/", addUser, {
+        const response = await axios.post("http://localhost:4000", addUser, {
             headers: {
                 "Content-Type": "application/json"
             }

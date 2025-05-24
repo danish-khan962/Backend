@@ -51,7 +51,7 @@ const Update = () => {
     const updateUser = { name, email, age: Number(age) };
 
     try {
-        const response = await axios.patch(`https://crud-backend-jet-ten.vercel.app/${id}`, updateUser, {
+        const response = await axios.patch(`http://localhost:4000/${id}`, updateUser, {
             headers: {
                 "Content-Type": "application/json"
             }
