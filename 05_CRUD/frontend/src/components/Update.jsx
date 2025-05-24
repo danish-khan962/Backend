@@ -25,7 +25,7 @@ const Update = () => {
   const { id } = useParams();
   const getUser = async () => {
     try {
-      const response = await axios.get(`http://localhost/4000/${id}`);
+      const response = await axios.get(`http://localhost:4000/${id}`);
       const result = response.data;
 
       console.log(result);
